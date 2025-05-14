@@ -56,8 +56,7 @@ public:
      * @return Maximum length of ZigZag path
      */
     int longestZigZag(TreeNode* root) {
-        maxan(root, 0, false);  // Start with right
-        maxan(root, 0, true);   // Start with left
+        maxan(root, 0, false);  
         return maxans;
     }
 };
